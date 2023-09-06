@@ -3,6 +3,7 @@ body {
 }
 
 /* css for the navbar */
+
 .navbar {
   padding: 20px;
   z-index: 1;
@@ -20,8 +21,8 @@ body {
 /*css for the images on the bottom */
 .hover02 figure img {
   margin: 5px;
-  float: left;
 	width: 100px;
+  float: left;
 	height: auto;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
@@ -29,4 +30,35 @@ body {
 .hover02 figure:hover img {
 	width: 120px;
 }
+
+.heading-big {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #1a1c20;
+  font-size: 85px;
+  line-height: 90px;
+  font-weight: 500;
+  position: relative;
+}
+.text-gray {
+  margin-top: 25px;
+  line-height: 46px;
+  font-size: 26px;
+  color: #62646d;
+  position: relative;
+}
+
+.text-medium {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: 50px;
+}
+
+#text-one {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+
 
