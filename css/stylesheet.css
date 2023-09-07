@@ -1,8 +1,8 @@
 body {
-  background-color: #eeeff1;
+  background-color: #f8f8f8 !important;
 }
 
-/* css for the navbar */
+/* css voor navbar */
 
 .navbar {
   padding: 20px;
@@ -18,18 +18,20 @@ body {
   padding-left: 5px;
 }
 
-/*css for the images on the bottom */
+/*css voor fotos aan de onderkant*/
 .hover02 figure img {
   margin: 5px;
   margin-left: 60px;
-	width: 100px;
+	width: 90px;
   float: left;
 	height: auto;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  transition: 1s ease;
 }
 .hover02 figure:hover img {
-	width: 110px;
+	-webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.4);
+  transition: 1s ease;
 }
 
 .heading-big {
@@ -69,10 +71,12 @@ body {
 
   #copyright {
     color: #8f929e;
-    line-height: 157px;
-    
+    font-size: 14px;
+    line-height: 26px;
+    opacity: 0.7;
+      
+  }
 
-}
 
 @media(max-width:767px) {
   .programming-pic {
@@ -83,6 +87,3 @@ body {
 .programming-pic {
   border-radius: 15px;
 }
-
-
-
