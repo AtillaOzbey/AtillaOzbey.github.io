@@ -21,6 +21,7 @@ body {
 /*css for the images on the bottom */
 .hover02 figure img {
   margin: 5px;
+  margin-left: 60px;
 	width: 100px;
   float: left;
 	height: auto;
@@ -28,7 +29,7 @@ body {
 	transition: .3s ease-in-out;
 }
 .hover02 figure:hover img {
-	width: 120px;
+	width: 110px;
 }
 
 .heading-big {
@@ -58,6 +59,29 @@ body {
 #text-one {
   margin-left: 50px;
   margin-bottom: 50px;
+}
+
+#intro-row {
+      margin-top: 110px;
+      margin-bottom: 140px;
+      margin-left: 50px;
+  }
+
+  #copyright {
+    color: #8f929e;
+    line-height: 157px;
+    
+
+}
+
+@media(max-width:767px) {
+  .programming-pic {
+      display: none;
+  }
+}
+
+.programming-pic {
+  border-radius: 15px;
 }
 
 
