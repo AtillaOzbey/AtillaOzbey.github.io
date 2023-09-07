@@ -2,14 +2,139 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hallo ik ben Atilla, student HBO-ICT op het HZ">
+    <title>Atilla Özbey - Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
-    <link href="js/index.js" />
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
 </head>
 
 <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light animate__animated animate__fadeInDown">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-0 h1" href="../index.html">Atilla Özbey</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav ms-auto" id="navbar-items">
+                        <a class="nav-link" href="profile.html">Over mij</a>
+                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row gx-5 align-items-center" id="dashboard-row-one">
+                <div class="col col-lg-5">
+                    <h1 class="heading-big">
+                    <nobr>Mijn studie monitor</nobr>
+                   </h1>
+                    <p>&nbsp;</p>
+                    <p class="text-big">Informatie over de huidige status van mijn studie. Hieronder staat een tabel met de informatie over de toetsen van dit jaar. </p>
+                    <p class="text-big"> Onder de tabel staat een voortgangsbalk waar makkelijk mee te zien is hoe ver ik ben. 
+                        Aan het eind van het jaar is het de bedoeling dat ik minimaal 45EC heb zodat ik geen NBSA krijg.
+                    </br>
+                    Het liefst hoop ik natuurlijk op 60 EC, dan zou ik gelijk mijn propedeuse behalen.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 3%;" aria-valuenow="" aria-valuemin="0" aria-valuemax="55">0%</div>
+                <div class="progress-bar-marker" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Blok</th>
+                        <th scope="col">Naam</th>
+                        <th scope="col">Toets</th>
+                        <th scope="col">Gewicht</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>CU75002V2 - Computer Science Basics (Semester 1 - 2023/2024)</td>
+                        <td>TOETS01 - Theorietentamen</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>CU75001V3 - Program- & Career Orientation (Semester 1 - 2023/2024)</td>
+                        <td>TOETS01 - Assessment website</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>CU75003V1 - Programming Basics (Semester 1 - 2023/2024)</td>
+                        <td>TOETS01 - Casustoets</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CU75004V1 - Object-Oriented Programming (Semester 1 - 2023/2024)</td>
+                        <td>TOETS01 - Groepsopdracht</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CU75004V1 - Object-Oriented Programming (Semester 1 - 2023/2024)</td>
+                        <td>TOETS02 - Casustoets</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>CU75068V3 - Personal Professional Development Exploration (Semester 1 - 2023/2024)</td>
+                        <td>TOETS01 - Criterium focused interview</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>x</td>
+                        <td>HZ personality</td>
+                        <td>Portfolio</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                        <td>x</td>
+                        <td>IT personality</td>
+                        <td>Portfolio</td>
+                        <td>100%</td>
+                    </tr>
+                </tbody>
+        </table>
+        </div>
+    
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/atilla-%C3%B6zbey-98a653178/" target="_blank"
+                class="linkedin-link w-inline-block"><img src="../images/linkedin-logo.webp" loading="lazy" width="24"
+                    alt="linkedin" class="social-icons"></a>
+            <a href="https://github.com/AtillaOzbey" target="_blank" class="github-link w-inline-block"><img
+                    src="../images/github-logo.webp" loading="lazy" width="24" alt="github" class="social-icons"></a>
+            <a href="https://discord.com/users/254718612458176512" target="_blank"
+                class="github-link w-inline-block"><img src="../images/discord-logo.png" loading="lazy" width="24"
+                    alt="github" class="social-icons"></a>
+        </div>
+        <div class="container">
+            <footer class="my-4">
+                <p class="text-center text-muted" id="copyright">Copyright © 2023 Atilla Özbey. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
 
 </html>
