@@ -118,3 +118,7 @@ body {
   height: 15vw;
   object-fit: scale-down;
 }
+
+.arrow-button:focus{
+  box-shadow: none;
+}
