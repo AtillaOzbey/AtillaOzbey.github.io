@@ -37,26 +37,30 @@
             <div class="row gx-5 align-items-center" id="dashboard-row-one">
                 <div class="col col-lg-5">
                     <h1 class="heading-big">
-                    <nobr>Mijn studie monitor</nobr>
-                   </h1>
+                        <nobr>Mijn studie monitor</nobr>
+                    </h1>
                     <p>&nbsp;</p>
-                    <p class="text-big">Informatie over de huidige status van mijn studie. Hieronder staat een tabel met de informatie over de toetsen van dit jaar. </p>
-                    <p class="text-big"> Onder de tabel staat een voortgangsbalk waar makkelijk mee te zien is hoe ver ik ben. 
+                    <p class="text-big">Informatie over de huidige status van mijn studie. Hieronder staat een tabel met
+                        de informatie over de toetsen van dit jaar. </p>
+                    <p class="text-big"> Onder de tabel staat een voortgangsbalk waar makkelijk mee te zien is hoe ver
+                        ik ben.
                         Aan het eind van het jaar is het de bedoeling dat ik minimaal 45EC heb zodat ik geen NBSA krijg.
-                    </br>
-                    Het liefst hoop ik natuurlijk op 60 EC, dan zou ik gelijk mijn propedeuse behalen.
+                        </br>
+                        Het liefst hoop ik natuurlijk op 60 EC, dan zou ik gelijk mijn propedeuse behalen.
                     </p>
                 </div>
             </div>
-            
+
             <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 3%;" aria-valuenow="" aria-valuemin="0" aria-valuemax="55">0%</div>
-                <div class="progress-bar-marker" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" style="width: 3%;" aria-valuenow="" aria-valuemin="0"
+                    aria-valuemax="55">0%</div>
+                <div class="progress-bar-marker" role="progressbar" style="width: 75%" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
 
         <div class="container">
-            <table class="table">
+            <table class="table accordion">
                 <thead>
                     <tr>
                         <th scope="col">Blok</th>
@@ -67,12 +71,23 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>1</td>
+                    <tr data-bs-toggle="collapse" data-bs-target="#r1">
+                        <td>1<button class="btn btn-default btn-xs">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
+                                </svg>
+                            </button></td>
                         <td>PCO: Program- & career Orientation</td>
                         <td>2,5</td>
                         <td>CU75001</td>
                         <td>-</td>
+                    </tr>
+                    
+                    <tr class="collapse accordion-collapse" id="r1" data-bs-parent=".table">
+                        <thead>
+                        </thead>
                     </tr>
                     <tr>
                         <td>1</td>
@@ -105,7 +120,7 @@
                     <tr>
                         <td>3/4</td>
                         <td>Business IT Consultancy Basics</td>
-                        <td>2,5</td>    
+                        <td>2,5</td>
                         <td>CU75081</td>
                         <td>-</td>
                     </tr>
@@ -131,9 +146,9 @@
                         <td>-</td>
                     </tr>
                 </tbody>
-        </table>
+            </table>
         </div>
-    
+
         <div class="social-media">
             <a href="https://www.linkedin.com/in/atilla-%C3%B6zbey-98a653178/" target="_blank"
                 class="linkedin-link w-inline-block"><img src="../images/linkedin-logo.webp" loading="lazy" width="24"
@@ -150,7 +165,7 @@
             </footer>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
